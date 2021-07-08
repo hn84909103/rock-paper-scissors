@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:700&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:600&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #ffea00;
+}
+
+header {
+	background-color: white;
+	padding: 20px;
+
+}
+
+header > h1 {
+	color:#25272E;
+	text-align: center;
+	font-family: Source Sans Pro, sans-serif;
+
+}
+
+.score-board {
+	margin:20px auto;
+	border:3px solid black;
+	border-radius:5px;
+	text-align:center;
+	width:200px;
+	font-size: 40px;
+	padding: 15px 20px;
+	font-family: 'Source Sans Pro', sans-serif;
+	position: relative;
+}
+
+
+.badge {
+	background-color: #e22237;
+	color: white;
+	font-size:16px;
+	padding:2px 10px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+#user-label {
+	position: absolute;
+	top: 30px;
+	left: -25px;
+}
+
+#computer-label {
+	position: absolute;
+	top: 30px;
+	right: -30px;
+}
+
+.result {
+	color: black;
+	text-align:center;
+	font-size: 35px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.choices {
+	margin: 50px 0 25px 0;
+	text-align: center;
+}
+
+.choice {
+	margin: 0 15px;
+	border: 3px solid black;
+	border-radius: 50%;
+	display: inline-block;
+	padding: 25px;
+	transition: all 0.5s ease;
+}
+
+.choice:hover {
+	cursor: pointer;
+	background-color: black;
+}
+
+.action-message {
+	color: black;
+	text-align:center;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
